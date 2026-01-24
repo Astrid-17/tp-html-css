@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f8fafc, #e0f2fe);
+    color: #1f2937;
+}
+
+.header {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    text-align: center;
+    padding: 45px;
+    color: white;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+.titre {
+    background: rgba(255,255,255,0.18);
+    padding: 22px;
+    border-radius: 22px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+}
+
+.photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 18px;
+}
+
+.menu {
+    background: #020617;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu a {
+    color: #bae6fd;
+    padding: 16px 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.btn {
+    background: linear-gradient(135deg, #6366f1, #22d3ee);
+    color: white;
+    padding: 14px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 35px;
+}
+
+.top-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 35px;
+}
+
+section, article, aside {
+    background: white;
+    border-radius: 22px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+aside#Debouches details {
+    background: #f8fafc;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+
+h4 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #2563eb;
+    margin-top: 20px;
+}
+
+#Projets-realises {
+    width: 100%;
+}
+
+.projets {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.projets th {
+    background: linear-gradient(135deg, #6366f1, #22d3ee);
+    color: white;
+    padding: 14px;
+}
+
+.projets td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.projets tr:hover {
+    background: #f0f9ff;
+}
+
+aside details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+.qrcode {
+    width: 160px;
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    border-radius: 18px;
+}
+
+footer {
+    background: #020617;
+    color: #a5f3fc;
+    text-align: center;
+    padding: 35px;
+    margin-top: 40px;
+}
